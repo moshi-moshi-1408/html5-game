@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML5 Game</title>
+  <link rel='stylesheet' href='styles.css'>
+  <meta charset='utf-8'/>
+</head>
+
+<body>
+  <button id='start'>Start Game</button><br>
+  <button id='reset'>Reset Game</button><br>
+  <div class='front' id='instructions'>Avoid getting hit by the falling objects!</div>
+  <div class='front' id='clock'>Timer: 20</div>
+  <div class='msg' id='win_msg'>Congratulations, You Won!</div>
+  <div class='msg' id='lose_msg'>Game Over, You have 0 lives left</div>
+  <canvas id='gameCanvas' width='700' height='500'></canvas>
+
+ <script src='game.js'></script>
+</body>
+</html>
